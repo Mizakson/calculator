@@ -4,3 +4,9 @@ body {
     align-items: center;
     font-family: courier-new, monospace;
 }
+
+#calc-container {
+    border: 1px solid black;
+    margin-top: 50px;
+    padding: 15px 15px;
+}
