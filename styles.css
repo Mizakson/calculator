@@ -37,4 +37,14 @@ button {
     width: 50px;
     height: 50px;
     font-size: 18px;
+    color: white;
+    background-color: darkgray;
+}
+
+#equals {
+    background-color: blue;
+}
+
+#clear {
+    background-color: red;
 }
