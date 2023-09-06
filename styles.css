@@ -10,3 +10,10 @@ body {
     margin-top: 50px;
     padding: 15px 15px;
 }
+
+#display-box {
+    border: 1px solid black;
+    margin: 10px 10px;
+    text-align: center;
+    padding: 5px 5px;
+}
