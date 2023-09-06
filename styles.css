@@ -17,3 +17,10 @@ body {
     text-align: center;
     padding: 5px 5px;
 }
+
+#top-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 8px 8px;
+}
