@@ -32,6 +32,12 @@ h2 {
     border: 1px white solid;
     margin: 100px;
     padding: 50px;
-    height: 250px;
-    width: 150px;
+    height: 350px;
+    width: 250px;
+}
+
+.display-container {
+    height: 55px;
+    margin: 0 auto;
+    width: 160px;
 }
