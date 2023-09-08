@@ -41,7 +41,7 @@ h2 {
     height: 40px;
     margin: 0 auto;
     width: 200px;
-    border: 1px white solid;
+    border: 1px black;
     border-radius: 10px;
-    background-color: darkgray;
+    background-color: white;
 }
