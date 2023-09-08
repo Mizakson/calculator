@@ -29,16 +29,19 @@ h2 {
 .calc-container {
     display: flex;
     flex-direction: column;
-    border: 1px white solid;
+    border: 5px white solid;
     margin: 100px;
-    padding: 50px;
+    padding: 15px;
     height: 350px;
     width: 250px;
+    border-radius: 10px;
 }
 
 .display-container {
-    height: 55px;
+    height: 40px;
     margin: 0 auto;
-    width: 160px;
+    width: 200px;
     border: 1px white solid;
+    border-radius: 10px;
+    background-color: darkgray;
 }
