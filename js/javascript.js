@@ -5,7 +5,8 @@ const operand = document.querySelector('.operand-container');
 const digits = document.querySelector('digits-container');
 
 const clear = document.querySelector('button[value="C"]');
-const equals = document.querySelector('button[value="="]')
+const equals = document.querySelector('button[value="="]');
+const displayText = document.querySelector('.result');
 
 
 
