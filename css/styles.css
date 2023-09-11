@@ -37,6 +37,10 @@ h2 {
     border-radius: 10px;
 }
 
+.calc-container > button {
+    color: black;
+}
+
 .display-box {
     height: 40px;
     margin: 0 auto;
