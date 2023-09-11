@@ -71,3 +71,9 @@ h2 {
     gap: 15px;
     align-items: center;
 }
+
+.misc-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
