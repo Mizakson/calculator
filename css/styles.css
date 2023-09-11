@@ -58,6 +58,13 @@ h2 {
     justify-content: center;
 }
 
+.calc-subcontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+}
+
 .digits-container {
     display: flex;
     flex-direction: column;
