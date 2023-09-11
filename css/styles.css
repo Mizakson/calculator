@@ -77,3 +77,23 @@ h2 {
     flex-direction: column;
     gap: 15px;
 }
+
+.operand-container > button, .digits-subcontainer > button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.misc-container > button {
+    width: 55px;
+    height: 85px;
+    font-size: 20px;
+}
+
+button[value="C"] {
+    background-color: crimson;
+}
+
+button[value="="] {
+    background-color: rgb(195, 135, 235);
+}
