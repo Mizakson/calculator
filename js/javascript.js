@@ -39,9 +39,17 @@ let digits = document.querySelectorAll('.digit');
 for (let i = 0; i < digits.length; i++) {
     let digit = digits[i];
     digit.addEventListener('click', () => {
-        document.getElementById('result').innerHTML += digit.innerHTML
+        document.getElementById('result').innerHTML += digit.innerHTML;
     })
 };
+
+let operands = document.querySelectorAll('.operand');
+for (let i = 0; i < operands.length; i++) {
+    let operand = operands[i];
+    operand.addEventListener('click', () => {
+        document.getElementById('result').innerHTML += operand.innerHTML;
+    })
+}
 
 
 
