@@ -48,6 +48,7 @@ let num2 = "";
 let operator = "";
 
 
+
 digits.forEach(digit => {
     digit.addEventListener('click', e => {
         if (operator === "") {
@@ -71,7 +72,7 @@ function showNum () {
     for (let i = 0; i < digits.length; i++) {
         let digit = digits[i];
         digit.addEventListener('click', () => {
-            document.getElementById('result').innerHTML += digit.innerHTML;
+            document.getElementById('display-text').innerHTML += digit.innerHTML;
         })
     }; 
 }
@@ -80,11 +81,11 @@ function showOperator () {
     for (let i = 0; i < operands.length; i++) {
         let operand = operands[i];
         operand.addEventListener('click', () => {
-            document.getElementById('result').innerHTML += operand.innerHTML;
+            document.getElementById('display-text').innerHTML += operand.innerHTML;
         })
     }
     equalSign.addEventListener('click', () => {
-        document.getElementById('result').innerHTML += equalSign.innerHTML;
+        document.getElementById('display-text').innerHTML += equalSign.innerHTML;
     })
 }
 
