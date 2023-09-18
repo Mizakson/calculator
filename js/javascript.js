@@ -36,8 +36,10 @@ const button = document.querySelector('.button');
 
 // populate display on button click
 let digits = document.querySelectorAll('.digit');
+let operands = document.querySelectorAll('.operand');
 let firstNum = 0;
 let secondNum = 0;
+let clickedOperand = "";
 
 function displayNum () {
     for (let i = 0; i < digits.length; i++) {
@@ -48,10 +50,22 @@ function displayNum () {
             return clicks;
         })
     };    
+};
+
+function displayOperand () {
+    for (let i = 0; i < operands.length; i++) {
+        let operand = operands[i];
+        operand.addEventListener('click', () => {
+            const clicks = document.getElementById('result').innerHTML += operand.innerHTML;
+            console.log(clicks);
+            return clicks;
+        })
+    }
 }
 
 
 displayNum();
+displayOperand();
 
 
 
