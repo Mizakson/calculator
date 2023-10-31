@@ -1,2 +1,2 @@
 # calculator
-Odin Project Foundations JavaScript Final Project
+Odin Project Foundations Final Project
